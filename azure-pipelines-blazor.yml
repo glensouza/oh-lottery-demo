@@ -4,7 +4,7 @@ trigger:
 name: $(Year:yy).$(DayOfYear).$(Rev:r)
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 
 variables:
   solution: '**/*.sln'
